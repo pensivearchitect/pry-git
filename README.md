@@ -2,8 +2,13 @@ pry-git
 ===========
 
 (C) John Mair (banisterfiend) 2011
+(C) Joshua Bell 2014
 
 _A Ruby-aware git layer_
+
+This fork of pry-git seeks to make use of the [gitsh](https://github.com/thoughtbot/gitsh) utility to extend the gem's git integration
+
+Now back to the original Readme
 
 Retrieve blame, perform diffs, make commits using the natural units of
 Ruby code.
