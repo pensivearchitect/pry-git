@@ -5,14 +5,13 @@ Gem::Specification.new do |s|
   s.version = "0.2.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["John Mair (banisterfiend)"]
+  s.authors = ["John Mair (banisterfiend), Joshua Bell"]
   s.date = "2012-04-03"
   s.description = "A Ruby-aware git layer"
-  s.email = "jrmair@gmail.com"
+  s.email = "pensivearchitect@gmail.com"
   s.files = ["lib/pry-git/version.rb", "lib/pry-git.rb", "test/test.rb", "CHANGELOG", "README.md", "Rakefile"]
   s.homepage = "http://github.com/pry/pry-git"
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.16"
   s.summary = "A Ruby-aware git layer"
 
   if s.respond_to? :specification_version then
